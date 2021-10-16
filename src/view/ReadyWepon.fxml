@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="readyWeaponPageContext" prefHeight="495.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ReadyWeaponController">
+   <children>
+      <Label layoutX="161.0" layoutY="14.0" prefHeight="40.0" prefWidth="278.0" text="Ready Your Weapons" textFill="#a40b0b">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font>
+      </Label>
+      <AnchorPane layoutX="45.0" layoutY="97.0" prefHeight="260.0" prefWidth="200.0" style="-fx-background-color: #95a5a6;">
+         <children>
+            <Label layoutX="63.0" layoutY="14.0" prefHeight="27.0" prefWidth="75.0" text="Player A" textFill="#040679">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <CheckBox fx:id="cmbT56A" layoutX="22.0" layoutY="77.0" mnemonicParsing="false" text="T - 56" textFill="#820909" />
+            <CheckBox fx:id="cmbTankA" layoutX="22.0" layoutY="108.0" mnemonicParsing="false" text="Tank" textFill="#820909" />
+            <CheckBox fx:id="cmbMultiBarrelA" layoutX="22.0" layoutY="141.0" mnemonicParsing="false" text="Multi Barrel" textFill="#820909" />
+            <CheckBox fx:id="cmbPistolA" layoutX="22.0" layoutY="178.0" mnemonicParsing="false" text="Pistol" textFill="#820909" />
+            <CheckBox fx:id="cmbBombA" layoutX="22.0" layoutY="213.0" mnemonicParsing="false" text="Bomb" textFill="#820909" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="355.0" layoutY="97.0" prefHeight="260.0" prefWidth="200.0" style="-fx-background-color: #95a5a6;">
+         <children>
+            <Label layoutX="66.0" layoutY="14.0" prefHeight="27.0" prefWidth="69.0" text="Player B" textFill="#040679">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <CheckBox fx:id="cmbT56B" layoutX="14.0" layoutY="79.0" mnemonicParsing="false" text="T - 56" textFill="#820909" />
+            <CheckBox fx:id="cmbTankB" layoutX="14.0" layoutY="110.0" mnemonicParsing="false" text="Tank" textFill="#820909" />
+            <CheckBox fx:id="cmbMultiBarrelB" layoutX="14.0" layoutY="143.0" mnemonicParsing="false" text="Multi Barrel" textFill="#820909" />
+            <CheckBox fx:id="cmbPistolB" layoutX="14.0" layoutY="180.0" mnemonicParsing="false" text="Pistol" textFill="#820909" />
+            <CheckBox fx:id="cmbBombB" layoutX="14.0" layoutY="215.0" mnemonicParsing="false" text="Bomb" textFill="#820909" />
+         </children>
+      </AnchorPane>
+      <JFXButton layoutX="231.0" layoutY="413.0" onAction="#openBattleStart" prefHeight="44.0" prefWidth="139.0" style="-fx-background-color: #2ecc71;" text="Battle Start" textFill="#fcf8f8">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>
